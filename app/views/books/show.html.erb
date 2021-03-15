@@ -1,6 +1,10 @@
 <head></head>
 
 <body>
+  <div class="flash_message">
+   <%= flash[:success] %>
+   <%= flash[:notice] %>
+   </div>
   <p>
     <strong>Title:</strong>
     <%= @book.title %>
